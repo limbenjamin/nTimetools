@@ -16,7 +16,7 @@ Downloads
 =========
 
 [nTimeview_v1.0_64bit](https://limbenjamin.com/files/nTimeTools/nTimeview_v1.0_x64.exe) - SHA1() = 7b0506dca02e7a3dd9ba4fcbe4f4ff45008d31c8  
-[nTimestomp_v1.0_64bit](https://limbenjamin.com/files/nTimeTools/nTimestomp_v1.0_x64.exe) - SHA1() = b509d254fdc0fc5e72db773f5cc0b2b9f3a56a9b  
+[nTimestomp_v1.1_64bit](https://limbenjamin.com/files/nTimeTools/nTimestomp_v1.1_x64.exe) - SHA1() = d7df0de4ea2030971a154ca2e4b05b086a1fe2ee  
 
 
 Q&A
@@ -42,5 +42,9 @@ The Licensee is allowed to freely redistribute the software subject to the follo
 
 Bugs or comments?
 -----------------
-public@limbenjamin.com
+Create an issue on [github](https://github.com/limbenjamin/nTimetools)
+  
+Changelog
+---------
+nTimestomp v1.1 (10/02/19) - Modified help example to have only 7 digits for nanosecond field. 
 
