@@ -10,6 +10,8 @@ nTimetools is a suite of console tools developed to work with timestamps in Wind
   
 ![image](https://limbenjamin.com/media/ntimetools2.png)
 
+The syntax for nTimestomp is `nTimestomp.exe C:\test.txt "3210-12-21 12:34:56.7890123" "4321-01-12 12:34:56.7654321" "2222-11-11 11:22:33.4455667" "3333-01-01 00:00:00.0000001"` The separator for the nanoseconds portion is a dot and not a colon. The date format is `YYYY-MM-DD`.
+
 FAT does not keep track of metadata change time, hence the null value. The difference in timestamps is due to the level of precision of FAT timestamps. Also, creation timestamps on mounted drives cannot be modified to due API limitations.  
 
 Downloads
