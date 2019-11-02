@@ -1,0 +1,23 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (nTimetools.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  nTimeview.c
+nTimeview.c(56): warning C4133: 'function': incompatible types - from 'char *' to 'LPCWSTR'
+nTimeview.c(58): warning C4477: 'printf' : format string '%S' requires an argument of type 'unsigned short *', but variadic argument 1 has type 'char *'
+  nTimeview.c(58): note: consider using '%hS' in the format string
+  nTimeview.c(58): note: consider using '%TS' in the format string
+nTimeview.c(94): warning C4101: 'localfiletime': unreferenced local variable
+nTimeview.c(120): warning C4133: 'function': incompatible types - from 'wchar_t [4096]' to 'char *'
+nTimeview.c(121): warning C4047: 'function': 'LPWSTR' differs in levels of indirection from 'CHAR (*)[261]'
+nTimeview.c(121): warning C4024: 'GetVolumeInformationByHandleW': different types for formal and actual parameter 2
+nTimeview.c(121): warning C4024: 'GetVolumeInformationByHandleW': different types for formal and actual parameter 7
+nTimeview.c(124): warning C4477: 'printf' : format string '%S' requires an argument of type 'unsigned short *', but variadic argument 1 has type 'CHAR *'
+  nTimeview.c(124): note: consider using '%hS' in the format string
+  nTimeview.c(124): note: consider using '%TS' in the format string
+nTimeview.c(126): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'LONGLONG'
+  nTimeview.c(126): note: consider using '%lld' in the format string
+  nTimeview.c(126): note: consider using '%Id' in the format string
+  nTimeview.c(126): note: consider using '%I64d' in the format string
+  Generating code
+  All 10 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  NTimeview.vcxproj -> C:\workspace\nTimetools\x64\Release\nTimeview.exe
+  NTimeview.vcxproj -> C:\workspace\nTimetools\x64\Release\nTimeview.pdb (Full PDB)

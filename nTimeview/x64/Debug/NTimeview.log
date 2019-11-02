@@ -1,0 +1,7 @@
+﻿  nTimeview.c
+c:\workspace\ntimeview\ntimeview\ntimeview.c(56): warning C4133: 'function': incompatible types - from 'char *' to 'LPCWSTR'
+c:\workspace\ntimeview\ntimeview\ntimeview.c(94): warning C4101: 'localfiletime': unreferenced local variable
+c:\workspace\ntimeview\ntimeview\ntimeview.c(118): warning C4133: 'function': incompatible types - from 'wchar_t [4096]' to 'char *'
+c:\workspace\ntimeview\ntimeview\ntimeview.c(114): warning C4101: 'strtrunc': unreferenced local variable
+  NTimeview.vcxproj -> C:\workspace\nTimeview\x64\Debug\nTimeview.exe
+  NTimeview.vcxproj -> C:\workspace\nTimeview\x64\Debug\nTimeview.pdb (Full PDB)

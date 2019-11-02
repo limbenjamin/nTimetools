@@ -26,15 +26,11 @@ Q&A
 
 Are there any similar tools out there?
 --------------------------------------
-Joakim Schicht (jschicht) has an excellent set of tools out there, MftRcrd and SetMace, that work with timestamps of up to 100-nanosecond precision. These tools work in a different way. The raw device is mounted and the MFT is parsed and read from. The advantage of doing so is that $FILE_NAME timestamps can also be read. This allows a more in-depth check for signs of timestomping. However, the downside of using raw device mounting is that it will only work on NTFS filesystems and it requires privileged access. For SetMace, due to restrictions placed in recent version of Windows on writing to a raw device, it will only work on non system drives.
-
-Can I have the source code?
----------------------------
-The utility is closed source at this point in time. If I decide to open source it in future, I will update this page.
+Joakim Schicht (jschicht) has an excellent set of tools out there, MftRcrd and SetMace, that work with timestamps of up to 100-nanosecond precision. These tools work in a different way. The raw device is mounted and the MFT is parsed and read from. The advantage of doing so is that $FILE_NAME timestamps can also be read. This allows a more in-depth check for signs of timestomping. However, the downside of using raw device mounting is that it will only work on NTFS filesystems and it requires privileged access. For SetMace, due to restrictions placed in recent version of Windows on writing to a raw device, it will only work on non system drives.  
 
 License?
 --------
-The software is distributed "as is". No warranty of any kind is expressed or implied. You use at your own risk. The author will not be liable for data loss, damages, loss of profits or any other kind of loss while using or misusing this software.
+The software is distributed "as is". No warranty of any kind is expressed or implied. You use at your own risk. The author will not be liable for data loss, damages, loss of profits or any other kind of loss while using or misusing this software.  
 
 The Licensee is allowed to freely redistribute the software subject to the following conditions.  
 1.	The Software may be installed and used by the Licensee for any legal purpose.  

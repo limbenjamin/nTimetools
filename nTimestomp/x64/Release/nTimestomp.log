@@ -1,0 +1,29 @@
+﻿  nTimestomp.c
+nTimestomp.c(70): warning C4133: 'function': incompatible types - from 'char *' to 'LPCWSTR'
+nTimestomp.c(72): warning C4477: 'printf' : format string '%S' requires an argument of type 'unsigned short *', but variadic argument 1 has type 'char *'
+  nTimestomp.c(72): note: consider using '%hS' in the format string
+  nTimestomp.c(72): note: consider using '%TS' in the format string
+nTimestomp.c(91): warning C4028: formal parameter 1 different from declaration
+nTimestomp.c(171): warning C4477: 'sscanf_s' : format string '%7d' requires an argument of type 'int *', but variadic argument 7 has type 'LONGLONG *'
+  nTimestomp.c(171): note: consider using '%lld' in the format string
+  nTimestomp.c(171): note: consider using '%Id' in the format string
+  nTimestomp.c(171): note: consider using '%I64d' in the format string
+nTimestomp.c(225): warning C4101: 'localfiletime': unreferenced local variable
+nTimestomp.c(256): warning C4133: 'function': incompatible types - from 'wchar_t [4096]' to 'char *'
+nTimestomp.c(257): warning C4047: 'function': 'LPWSTR' differs in levels of indirection from 'CHAR (*)[261]'
+nTimestomp.c(257): warning C4024: 'GetVolumeInformationByHandleW': different types for formal and actual parameter 2
+nTimestomp.c(257): warning C4024: 'GetVolumeInformationByHandleW': different types for formal and actual parameter 7
+nTimestomp.c(260): warning C4477: 'printf' : format string '%S' requires an argument of type 'unsigned short *', but variadic argument 1 has type 'CHAR *'
+  nTimestomp.c(260): note: consider using '%hS' in the format string
+  nTimestomp.c(260): note: consider using '%TS' in the format string
+nTimestomp.c(262): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'LONGLONG'
+  nTimestomp.c(262): note: consider using '%lld' in the format string
+  nTimestomp.c(262): note: consider using '%Id' in the format string
+  nTimestomp.c(262): note: consider using '%I64d' in the format string
+  Generating code
+  4 of 17 functions (23.5%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  nTimestomp.vcxproj -> C:\workspace\nTimetools\x64\Release\nTimestomp.exe
+  nTimestomp.vcxproj -> C:\workspace\nTimetools\x64\Release\nTimestomp.pdb (Full PDB)
