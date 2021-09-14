@@ -18,7 +18,7 @@ Downloads
 =========
 
 [nTimeview_v1.0_64bit](https://limbenjamin.com/files/nTimeTools/nTimeview_v1.0_x64.exe) - SHA1() = 7b0506dca02e7a3dd9ba4fcbe4f4ff45008d31c8  
-[nTimestomp_v1.2_64bit](https://limbenjamin.com/files/nTimeTools/nTimestomp_v1.2_x64.exe) - SHA1() = 82714abe0f87d0c16c147c340d6f3ba08df4df3a   
+[nTimestomp_v1.2_64bit](https://limbenjamin.com/files/nTimeTools/nTimestomp_v1.2_x64.exe) - SHA1() = 1175837865ab8282f1905b66c7417efdd8a56259   
 
 
 Q&A
@@ -44,5 +44,5 @@ Create an issue on [github](https://github.com/limbenjamin/nTimetools)
   
 Changelog
 ---------
-nTimestomp v1.1 (10/02/19) - Modified help example to have only 7 digits for nanosecond field. 
-nTimestomp v1.2 (14/09/21) - Consistency in order of MACB arguments. Added flags for arguments. 
+nTimestomp v1.1 (10/02/19) - Modified help example to have only 7 digits for nanosecond field.  
+nTimestomp v1.2 (14/09/21) - Consistency in order of MACB arguments. Added flags for arguments.  
