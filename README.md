@@ -10,7 +10,7 @@ nTimetools is a suite of console tools developed to work with timestamps in Wind
   
 ![image](https://limbenjamin.com/media/ntimetools2.png)
 
-The syntax for nTimestomp is `nTimestomp.exe C:\test.txt "3210-12-21 12:34:56.7890123" "4321-01-12 12:34:56.7654321" "2222-11-11 11:22:33.4455667" "3333-01-01 00:00:00.0000001"` The separator for the nanoseconds portion is a dot and not a colon. The date format is `YYYY-MM-DD`.
+The syntax for nTimestomp is `nTimestomp.exe -F F:\VERSION-FOR508-18-2A.txt -M "1995-05-19 12:34:56.7890123" -A "1995-05-19 12:34:56.7890123" -C "1995-05-19 23:59:59.0000001" -B "1995-05-19 23:59:59.0000001"` The separator for the nanoseconds portion is a dot and not a colon. The date format is `YYYY-MM-DD`. Filename is a required argument, any combination of `-M -A -C -B` is accepted, current timestamp will be retained if that argument is not specified.
 
 FAT does not keep track of metadata change time, hence the null value. The difference in timestamps is due to the level of precision of FAT timestamps. Also, creation timestamps on mounted drives cannot be modified to due API limitations.  
 
@@ -18,7 +18,7 @@ Downloads
 =========
 
 [nTimeview_v1.0_64bit](https://limbenjamin.com/files/nTimeTools/nTimeview_v1.0_x64.exe) - SHA1() = 7b0506dca02e7a3dd9ba4fcbe4f4ff45008d31c8  
-[nTimestomp_v1.1_64bit](https://limbenjamin.com/files/nTimeTools/nTimestomp_v1.1_x64.exe) - SHA1() = d7df0de4ea2030971a154ca2e4b05b086a1fe2ee  
+[nTimestomp_v1.2_64bit](https://limbenjamin.com/files/nTimeTools/nTimestomp_v1.2_x64.exe) - SHA1() = 82714abe0f87d0c16c147c340d6f3ba08df4df3a   
 
 
 Q&A
@@ -45,4 +45,4 @@ Create an issue on [github](https://github.com/limbenjamin/nTimetools)
 Changelog
 ---------
 nTimestomp v1.1 (10/02/19) - Modified help example to have only 7 digits for nanosecond field. 
-
+nTimestomp v1.2 (14/09/21) - Consistency in order of MACB arguments. Added flags for arguments. 
